@@ -141,7 +141,7 @@ typedef struct WayPointSettings
   uint8_t  actionNumber : 4;     /*!< Total number of actions */
   uint8_t  actionRepeat : 4;     /*!< Total running times */
   uint8_t  commandList[16];      /*!< Command list */
-  uint16_t commandParameter[16]; /*!< Command parameters */
+  int16_t commandParameter[16];  /*!< Command parameters */
 } WayPointSettings;              // pack(1)
 
 /**
